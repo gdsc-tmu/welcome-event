@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+    margin-top: 2%;
+    /*%で指定すると画面サイズに応じての変更が可能に*/
+}
+
+.strike-through {
+    text-decoration: line-through;
+}
+.inline {
+    display: inline;
+}

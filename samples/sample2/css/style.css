@@ -1,0 +1,53 @@
+body {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+header {
+  background-image: url("../img/header_img.png");
+  width: 100%;
+  height: 210px;
+  background-size: cover;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.profile-img {
+  display: flex;
+  justify-content: center;
+  margin-top: -10%;
+} 
+
+.profile-img img {
+  border-radius: 50%;
+  border-style: solid;
+  width: 15%;
+}
+
+.info {
+  display: flex;
+  margin: 50px 100px;
+}
+
+.column {
+  flex-direction: column;
+  flex: 50%;
+}
+
+.speck {
+  flex: 50%;
+}
+
+.box {
+  border-radius: 25px;
+  border-style: solid;
+  margin: 10px;
+  padding: 0px 30px 20px;
+  border-color: #F5F5F5;
+  background: #F5F5F5;
+}
+
+li {
+  margin-bottom: 15px;
+}
